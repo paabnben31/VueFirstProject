@@ -7,6 +7,7 @@
     <button-icon icon="fa fa-users" name="User"></button-icon> -->
     <navbar></navbar>
     <div class="container">
+      <h1>P' Jarrrrrrrrrrrrrrrrrrrrrrrrr</h1>
       <button class="btn btn-success" @click="isNew = !isNew">Create</button>
       <div class="form-group row"></div>
       <receipt-form v-if="isNew" @saveReceipt="addReceipt"></receipt-form>
